@@ -18,16 +18,13 @@ function add2(n) {
   const two = 2
 }
 
-describe('funkyFunction()', function() {
-      it('returns a function', function() {
-        expect(typeof window.funkyFunction()).toEqual('function')
-      })
-    })
 var funkyFunction = function(){
   return function(){
+    var theFunk = funkyFunction(){
     return "FUNKY!"
   }
   }
+}
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line.
-var theFunk = funkyFunction()
+
