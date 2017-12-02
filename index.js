@@ -18,9 +18,9 @@ function add2(n) {
   const two = 2
 }
 
-describe('theFunk', function() {
-      it('is "FUNKY!"', function() {
-        expect(window.theFunk).toEqual('FUNKY!')
+describe('funkyFunction()', function() {
+      it('returns a function', function() {
+        expect(typeof window.funkyFunction()).toEqual('function')
       })
     })
 var funkyFunction = function(){
